@@ -1,0 +1,25 @@
+# 2 Google Cloud Fundamentals: Core Infrastructure
+- IaaS(Compute Engine), PaaS(App Engine)
+- Security
+    - hardware infrastructure level
+    - service deployment level: encrypts all RPC traffic
+    - user identity level
+    - storage service level
+    - internet communication level: GFE - TLS connections using correct certificates, DoS protection
+    - operational security level
+- Basic IAM role > Predefined IAM role > Custom IAM role
+    - basic roles: viewers, editors, owners, billing administrator
+    - predefined roles: instanceAdmin
+- VPC
+    - routing tables, firewalls, VPC peering(two VPCs exchange traffic), shared VPC(to use fully power of IAM)
+    - cloud load balancing
+- Storage
+    - cloud storage, bigtable, cloudSQL, spanner, Firestore
+    - standard(hot) < nearline < coldline < archive
+- Kubernetes, GKE
+- Cloud Run, Cloud Run functions
+- Prompt Engineering
+    - generative ai: generating various types of content
+    - large language model: focusing on language tasks - calculates the probability of the correct answer from pre-trained model.
+    - hallucinations: nonsensical or grammatically incorrect
+    - zero-shot, one-shot(provide one example), few-shot, role prompt(i want you to act as..)
