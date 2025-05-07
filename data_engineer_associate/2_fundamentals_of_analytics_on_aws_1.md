@@ -1,4 +1,4 @@
-# Fundamentals of Analytics on AWS
+# Fundamentals of Analytics on AWS - Part 1
 - Data Analytics: interpret data that leads to meaningful decisions
     - Descriptive: investigate what happened. use data visualization
     = Diagnostic: why it happened
