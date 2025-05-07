@@ -1,0 +1,32 @@
+# Foundations 
+## 1. Roles and Concepts
+- INGEST
+    - DMS: load data from relational/non-relational db
+    - Data Firehose: convert datastream
+    - MSK: managed apache kafka
+    - IoT Core: connect IoT device
+    - DataSync: transfer on-premises to cloud
+    - Transfer Family: automate file transfers
+    - Snowball: transfer physical devices
+- STORE
+    - S3
+    - CATALOG
+    - Glue Data Catalog
+- PROCESS
+    - Glue: ETL service
+    - EMR: process big data
+    - Managed Service for Apache Flink: sql for real-time
+- DELIVER
+    - Redshift: analyze structured data
+    - EMR: run analytics service, like spark, hive
+    - database: store, query, analyze all types of data
+    - OpenSearch Service: analyze
+    - QuickSight: visualize and analyze
+    - SageMaker: machine learning
+- SECURITY & GOVERNANCE
+    - Lake Formation: centralize, scale data access permission
+    - IAM
+    - KMS
+    - Macie: automatically discover, protect sensitive data
+    - DataZone: catalog
+    - Audit Manager
