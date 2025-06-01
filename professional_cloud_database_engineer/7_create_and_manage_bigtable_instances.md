@@ -20,7 +20,7 @@ Bigtable table is shared into blocks of contiguous rows, called tablets. Tablets
 ## `cbt` CLI
 ```
 cbt createtable TableName
-cbt createfamily TableName familyname # create column family
-cbt lookup TableName row#key # read from single row
-cbt read TableName prefix=pre count=10 # read 10 rows with prefix pre in row key
+cbt createfamily TableName familyname       := create column family
+cbt lookup TableName row#key                := read from single row
+cbt read TableName prefix=pre count=10      := read 10 rows with prefix pre in row key
 ```

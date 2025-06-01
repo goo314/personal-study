@@ -9,9 +9,9 @@
 
 ## `psql` Command
 ```
-\l  := List databases
-\dt := List tables
-\d table_id := Equal to describe table_id in MySQL
-\c db := Equal to use db in MySQL
-\dx := List extensions
+\l              := List databases
+\dt             := List tables
+\d table_id     := Equal to describe table_id in MySQL
+\c db           := Equal to use db in MySQL
+\dx             := List extensions
 ```
